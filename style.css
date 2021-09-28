@@ -1,0 +1,29 @@
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(61, 58, 58);
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.label {
+  font-size: 24px;
+  color: rgb(146, 135, 135);
+  font-family: 'Roboto', sans-serif;
+}
